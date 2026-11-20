@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: #434d22;
+    background:#E5F1EE;
+}
+
+.sense-navbar {
+    min-height: 50px;
+    background: linear-gradient(90deg, #CED6CB 0%, #7E9B49 100%);
+    padding: 5px 5%;
+}
+
+.sense-navbar .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand,
+.footeer-brand {
+    font-family: 'Teachers', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #434d22 !important;
+    text-decoration: none !important;
+    line-height: 46px;
+}
+
+.navbar-brand:hover,
+.footer-brand:hover,
+.navbar-brand:visited,
+.footer-brand:visited {
+    color: #434d22 !important;
+    text-decoration: none !important;
+}
+
+.navbar-nav {
+    gap: 35px;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:active {
+    font-family: 'Teachers', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #434d22 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #8A8B83 !important;
+}
+
+.hero-section {
+   min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero-section h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 125px;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #434d22;
+}
+
+.see-shirts {
+    margin-top: 35px;
+    font-family: 'Teachers', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.products-section {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.products-heading {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 45px;
+    color: #434d22;
+}
+
+.product-link {
+    display: table;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #000000;
+    text-align: left;
+    text-decoration: none !important;
+}
+
+.product-link:link,
+.product-link:visited,
+.product-link:hover,
+.product-link:active {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.product-image {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: 375px;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 0 8px;
+    border-radius: 0;
+}
+
+.product-title {
+    font-family: 'Teachers', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-family: 'Teachers', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+}
+
+.product-type {
+    font-family: 'Teachers', sans-serif;
+    font-size: 16px;
+    margin-top: 2px;
+    font-weight: 200;
+    color: #8A8B83;
+    text-decoration: none;
+}
+
+.about-section {
+    padding: 90px 12%;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.about-text {
+    max-width: 850px;
+    margin: 0 auto;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color:#000000;
+}
+
+.sense-footer {
+    min-height: 50px;
+    background: linear-gradient(90deg, #7e9b49 0%, #ced6cb 100%);
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-links a {
+    font-family: 'Teachers', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #434d22;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #8A8B83;
+}
+
+@media (max-width: 991px) {
+    .hero-section h1 {
+        font-size: 75px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }   
+}
+
+@media (max-width: 767px) {
+    .sense-navbar {
+        height: auto;
+        min-height: 80px;
+        padding: 5px 5%;
+    }
+
+    .logo,
+    .footer-logo {
+        width: 75px;
+        height: 50px;
+    }
+
+    .hero-section {
+        min-height: 450px;
+    }
+
+    .hero-section h1 {
+        font-size: clamp(42px, 10vw, 65px);
+    }
+
+    .see-shirts {
+        font-size: 22px;
+    }
+
+    .products-section {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .products-heading {
+        font-size: 32px;
+    }
+
+    .product-image {
+        height: 320px;
+    }
+
+    .about-section {
+        padding: 60px 8%;
+    }
+
+    .about-section h2 {
+        font-size: 32px;
+    }
+
+    .about-text {
+        font-size: 18px;
+    }
+
+    .sense-footer {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 5%;  
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer-links a {
+        font-size: 18px;
+    }
+
+}   
+
+footer.sense-footer a.footer-brand {
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 35px !important;
+    font-weight: 600 !important;
+    line-height: 46px !important;
+    color: #434d22 !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+footer.sense-footer a.footer-brand:link,
+footer.sense-footer a.footer-brand:visited,
+footer.sense-footer a.footer-brand:hover,
+footer.sense-footer a.footer-brand:active   {
+    color: #434d22 !important;
+    text-decoration: none !important;
+}
