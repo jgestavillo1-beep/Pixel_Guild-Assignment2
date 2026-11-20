@@ -1,41 +1,31 @@
 * {
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     margin: 0;
     font-family: 'DM Sans', sans-serif;
     background-color: #FFFDF5;
     color: #263323;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Teachers', sans-serif;
 }
-
 img {
     max-width: 100%;
 }
-
 .teachers-regular {
     font-family: 'Teachers', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
-
-/* NAVIGATION */
-
 .navbar,
 .sense-navbar {
     background: linear-gradient(to right, #DCE8D0, #8CA66A);
     padding: 0.6rem 0;
 }
-
 .site-logo,
 .logo {
     display: block;
@@ -44,18 +34,15 @@ img {
     max-width: 160px;
     object-fit: contain;
 }
-
 .navbar-brand {
     font-family: 'Teachers', sans-serif;
     font-weight: 700;
     color: #434D22;
     text-decoration: none;
 }
-
 .navbar-nav {
     gap: 1.3rem;
 }
-
 .nav-link {
     font-family: 'DM Sans', sans-serif;
     font-size: 0.95rem;
@@ -64,20 +51,14 @@ img {
     margin-left: 0;
     transition: color 0.2s ease;
 }
-
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.active {
     color: #52745B;
 }
-
-
-/* HOMEPAGE HERO */
-
 .home-page {
     background-color: #E5F1EE;
 }
-
 .hero-section {
     min-height: 650px;
     display: flex;
@@ -87,7 +68,6 @@ img {
     text-align: center;
     padding: 70px 20px;
 }
-
 .hero-section h1 {
     font-family: 'Teachers', sans-serif;
     font-size: clamp(3.5rem, 8vw, 7.8rem);
@@ -95,7 +75,6 @@ img {
     line-height: 1.05;
     color: #434D22;
 }
-
 .see-shirts {
     margin-top: 35px;
     font-family: 'Teachers', sans-serif;
@@ -104,19 +83,13 @@ img {
     color: #263323;
     text-decoration: underline;
 }
-
 .see-shirts:hover {
     color: #52745B;
 }
-
-
-/* HOMEPAGE PRODUCT CARDS */
-
 .products-section {
     padding-top: 70px;
     padding-bottom: 100px;
 }
-
 .products-heading {
     font-family: 'Teachers', sans-serif;
     font-size: 2.5rem;
@@ -124,7 +97,6 @@ img {
     margin-bottom: 45px;
     color: #434D22;
 }
-
 .product-link {
     display: block;
     width: fit-content;
@@ -134,7 +106,6 @@ img {
     text-align: left;
     text-decoration: none;
 }
-
 .product-link:link,
 .product-link:visited,
 .product-link:hover,
@@ -142,7 +113,6 @@ img {
     color: #000000;
     text-decoration: none;
 }
-
 .home-product-image {
     display: block;
     width: 100%;
@@ -152,7 +122,6 @@ img {
     object-position: center;
     margin: 0 0 8px;
 }
-
 .product-title {
     font-family: 'Teachers', sans-serif;
     font-size: 1.5rem;
@@ -160,7 +129,6 @@ img {
     color: #000000;
     margin-bottom: 5px;
 }
-
 .product-price {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.15rem;
@@ -168,7 +136,6 @@ img {
     font-weight: 700;
     color: #000000;
 }
-
 .product-type {
     font-family: 'DM Sans', sans-serif;
     font-size: 0.85rem;
@@ -176,15 +143,10 @@ img {
     font-weight: 400;
     color: #555D52;
 }
-
-
-/* HOMEPAGE ABOUT */
-
 .about-section {
     padding: 90px 12%;
     text-align: center;
 }
-
 .about-section h2 {
     font-family: 'Teachers', sans-serif;
     font-size: 2.5rem;
@@ -192,7 +154,6 @@ img {
     margin-bottom: 25px;
     color: #263323;
 }
-
 .about-text {
     max-width: 850px;
     margin: 0 auto;
@@ -201,25 +162,18 @@ img {
     line-height: 1.6;
     color: #263323;
 }
-
-
-/* PRODUCT DETAIL PAGE LAYOUT */
-
 .product-container {
     padding-top: 50px;
     padding-bottom: 60px;
 }
-
 .product-gallery {
     width: 100%;
 }
-
 .image-label {
     font-size: 0.75rem;
     font-weight: 700;
     margin-bottom: 15px;
 }
-
 .product-image-wrapper {
     width: 100%;
     min-height: 400px;
@@ -227,25 +181,18 @@ img {
     justify-content: center;
     align-items: center;
 }
-
-/* This class is only for the large image on product detail pages. */
 .product-image {
     display: block;
     width: 100%;
     height: 450px;
     object-fit: contain;
 }
-
-
-/* PRODUCT IMAGE GALLERY CONTROLS */
-
 .gallery-controls {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 15px;
 }
-
 .gallery-button {
     width: 35px;
     height: 35px;
@@ -255,52 +202,38 @@ img {
     color: #263323;
     cursor: pointer;
 }
-
 .gallery-button:hover:not(:disabled) {
     background-color: #8CA66A;
     color: #FFFFFF;
 }
-
 .gallery-button:disabled {
     opacity: 0.4;
     cursor: not-allowed;
 }
-
-
-/* PRODUCT INFORMATION */
-
 .product-information h1 {
     font-family: 'Teachers', sans-serif;
     font-size: 1.9rem;
     margin-bottom: 10px;
 }
-
 #product-description {
     font-family: 'DM Sans', sans-serif;
     font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 25px;
 }
-
 .product-option {
     margin-bottom: 20px;
 }
-
 .option-label {
     font-family: 'DM Sans', sans-serif;
     font-size: 0.9rem;
     margin-bottom: 10px;
     font-weight: 500;
 }
-
-
-/* PRODUCT COLORS */
-
 .color-options {
     display: flex;
     gap: 10px;
 }
-
 .color-swatch {
     width: 28px;
     height: 28px;
@@ -308,26 +241,19 @@ img {
     border-radius: 50%;
     cursor: pointer;
 }
-
 .color-swatch.selected {
     outline: 2px solid #263323;
     outline-offset: 3px;
 }
-
 .selected-color {
     font-size: 0.8rem;
     margin-top: 8px;
 }
-
-
-/* PRODUCT SIZES */
-
 .size-options {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
 }
-
 .size-button {
     min-width: 38px;
     min-height: 38px;
@@ -336,42 +262,30 @@ img {
     color: #263323;
     cursor: pointer;
 }
-
 .size-button:hover {
     border-color: #263323;
 }
-
 .size-button.selected {
     background-color: #263323;
     color: #FFFFFF;
     border-color: #263323;
 }
-
-
-/* PRODUCT PRICE AND CATEGORY */
-
 .product-information .product-price {
     font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 5px;
 }
-
 .product-category {
     font-size: 0.8rem;
     color: #555;
     margin-bottom: 25px;
 }
-
-
-/* QUANTITY CONTROLS */
-
 .order-controls {
     display: flex;
     align-items: center;
     gap: 15px;
     flex-wrap: wrap;
 }
-
 .quantity-selector {
     display: flex;
     align-items: center;
@@ -379,7 +293,6 @@ img {
     border-radius: 30px;
     overflow: hidden;
 }
-
 .quantity-selector button {
     width: 35px;
     height: 40px;
@@ -388,21 +301,15 @@ img {
     color: #263323;
     cursor: pointer;
 }
-
 .quantity-selector button:disabled {
     opacity: 0.4;
     cursor: not-allowed;
 }
-
 .quantity-selector output {
     min-width: 30px;
     text-align: center;
     font-variant-numeric: tabular-nums;
 }
-
-
-/* ORDER BUTTON */
-
 .order-button {
     padding: 12px 35px;
     border: none;
@@ -412,20 +319,14 @@ img {
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
-
 .order-button:hover {
     background-color: #52745B;
     color: #FFFFFF;
 }
-
 .order-feedback {
     margin-top: 12px;
     font-size: 0.8rem;
 }
-
-
-/* FOOTER SHARED BY HOMEPAGE AND PRODUCT PAGES */
-
 .site-footer,
 .sense-footer {
     min-height: 55px;
@@ -436,7 +337,6 @@ img {
     align-items: center;
     gap: 15px;
 }
-
 .footer-brand {
     font-family: 'Teachers', sans-serif;
     font-size: 1.5rem;
@@ -445,19 +345,16 @@ img {
     color: #434D22;
     text-decoration: none;
 }
-
 .footer-brand:hover,
 .footer-brand:visited {
     color: #434D22;
     text-decoration: none;
 }
-
 .footer-links {
     display: flex;
     align-items: center;
     gap: 25px;
 }
-
 .footer-links a,
 .site-footer > a:not(.footer-brand) {
     font-family: 'DM Sans', sans-serif;
@@ -466,104 +363,77 @@ img {
     color: #263323;
     text-decoration: none;
 }
-
 .footer-links a:hover,
 .site-footer > a:not(.footer-brand):hover {
     color: #52745B;
     text-decoration: underline;
 }
-
-
-/* ACCESSIBILITY */
-
 a:focus-visible,
 button:focus-visible {
     outline: 3px solid #52745B;
     outline-offset: 3px;
 }
-
 button:disabled {
     cursor: not-allowed;
 }
-
-
-/* RESPONSIVE DESIGN */
-
 @media (max-width: 991px) {
     .hero-section h1 {
         font-size: clamp(3rem, 8vw, 5rem);
     }
-
     .navbar-nav {
         gap: 0.5rem;
     }
 }
-
 @media (max-width: 767px) {
     .navbar-nav {
         padding-top: 10px;
     }
-
     .hero-section {
         min-height: 450px;
     }
-
     .hero-section h1 {
         font-size: clamp(2.6rem, 10vw, 4.1rem);
     }
-
     .see-shirts {
         font-size: 1.4rem;
     }
-
     .products-section {
         padding-top: 50px;
         padding-bottom: 60px;
     }
-
     .products-heading,
     .about-section h2 {
         font-size: 2rem;
     }
-
     .home-product-image {
         height: 320px;
     }
-
     .about-section {
         padding: 60px 8%;
     }
-
     .about-text {
         font-size: 1rem;
     }
-
     .product-container {
         padding-top: 25px;
         padding-bottom: 35px;
     }
-
     .product-image-wrapper {
         min-height: 300px;
     }
-
     .product-image {
         height: 350px;
     }
-
     .product-information h1 {
         font-size: 1.5rem;
     }
-
     .order-controls {
         width: 100%;
     }
-
     .order-button {
         flex: 1;
     }
 }
-
 @media (max-width: 600px) {
     .sense-footer,
     .site-footer {
@@ -571,29 +441,21 @@ button:disabled {
         justify-content: center;
         padding: 18px 5%;
     }
-
     .footer-links {
         flex-wrap: wrap;
         justify-content: center;
         gap: 12px 20px;
     }
 }
-
-/* =====================================
-   SHOP PAGE
-===================================== */
-
 .shop-page {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
 }
-
 .shop-page main {
     flex: 1;
 }
-
 .shop-page .navbar {
     min-height: 94px;
     padding: 15px 0;
@@ -601,29 +463,24 @@ button:disabled {
     align-items: center;
     background: linear-gradient(to right, #DCE8D0, #8CA66A);
 }
-
 .shop-page .navbar-collapse {
     padding-top: 10px;
 }
-
 .shop-page .navbar-nav {
     gap: 10px;
 }
-
 .shop-page .nav-link {
     font-family: "Teachers", sans-serif;
     font-size: 1.1rem;
     font-weight: 500;
     color: #414B26;
 }
-
 .shop-page .shop-section {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
     padding: 85px 15px 120px;
 }
-
 .shop-page .shop-title {
     margin-top: 40px;
     margin-bottom: 85px;
@@ -632,17 +489,14 @@ button:disabled {
     font-weight: 700;
     color: #434D22;
 }
-
 .shop-page .product-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 40px;
 }
-
 .shop-page .product-card {
     width: 100%;
 }
-
 .shop-page .product-link {
     display: block;
     width: 100%;
@@ -651,12 +505,9 @@ button:disabled {
     color: inherit;
     text-decoration: none;
 }
-
 .shop-page .product-link:hover {
     cursor: pointer;
 }
-
-/* The Shop page's .product-image is a wrapper, unlike the product detail image. */
 .shop-page .product-image {
     width: 100%;
     aspect-ratio: 4 / 5;
@@ -666,7 +517,6 @@ button:disabled {
     align-items: center;
     overflow: hidden;
 }
-
 .shop-page .product-image img {
     display: block;
     width: 100%;
@@ -674,15 +524,12 @@ button:disabled {
     object-fit: contain;
     transition: transform 0.3s ease;
 }
-
 .shop-page .product-card:hover .product-image img {
     transform: scale(1.03);
 }
-
 .shop-page .product-info {
     margin-top: 35px;
 }
-
 .shop-page .product-info h2 {
     margin: 0;
     font-family: "Teachers", sans-serif;
@@ -690,7 +537,6 @@ button:disabled {
     font-weight: 400;
     color: #263323;
 }
-
 .shop-page .price {
     margin: 0;
     font-family: "Teachers", sans-serif;
@@ -698,7 +544,6 @@ button:disabled {
     font-weight: 700;
     color: #000000;
 }
-
 .shop-page .category {
     margin: 0;
     font-family: "Teachers", sans-serif;
@@ -706,7 +551,6 @@ button:disabled {
     font-weight: 400;
     color: #8A8B83;
 }
-
 .shop-page .footer {
     min-height: 62px;
     padding: 0 30px;
@@ -715,7 +559,6 @@ button:disabled {
     gap: 60px;
     background: linear-gradient(to right, #DCE8D0, #8CA66A);
 }
-
 .shop-page .footer-logo {
     margin: 0;
     font-family: "Teachers", sans-serif;
@@ -724,7 +567,6 @@ button:disabled {
     color: #414B26;
     text-decoration: none;
 }
-
 .shop-page .footer a:not(.footer-logo) {
     margin-left: auto;
     font-family: "Teachers", sans-serif;
@@ -732,26 +574,17 @@ button:disabled {
     color: #414B26;
     text-decoration: none;
 }
-
 .shop-page .footer a:hover {
     opacity: 0.65;
 }
-
-
-/* =====================================
-   CONTACT PAGE
-===================================== */
-
 .contact-page .page-bg {
     width: 100%;
     min-height: 70vh;
     background-color: #E6F0E9;
 }
-
 .contact-page .contact-info {
     padding-right: 2rem;
 }
-
 .contact-page .hero-title {
     margin-bottom: 1rem;
     font-family: "Teachers", sans-serif;
@@ -760,7 +593,6 @@ button:disabled {
     line-height: 1.15;
     color: #263323;
 }
-
 .contact-page .lead-text {
     margin-bottom: 2rem;
     font-family: "DM Sans", sans-serif;
@@ -768,11 +600,9 @@ button:disabled {
     line-height: 1.6;
     color: #263323;
 }
-
 .contact-page .contact-list {
     margin-top: 1.5rem;
 }
-
 .contact-page .contact-list li {
     display: flex;
     align-items: center;
@@ -782,36 +612,30 @@ button:disabled {
     font-size: 0.85rem;
     color: #263323;
 }
-
 .contact-page .contact-list i {
     flex-shrink: 0;
     font-size: 1.15rem;
     color: #263323;
 }
-
 .contact-page .contact-list a {
     color: #263323;
     text-decoration: none;
     overflow-wrap: anywhere;
 }
-
 .contact-page .contact-list a:hover {
     color: #52745B;
     text-decoration: underline;
 }
-
 .contact-page .form-card {
     width: 100%;
     padding: 1.5rem;
     border-radius: 10px;
     background-color: #DCE8D0;
 }
-
 .contact-page .field {
     position: relative;
     margin-bottom: 0.85rem;
 }
-
 .contact-page .field input,
 .contact-page .field textarea {
     display: block;
@@ -826,17 +650,14 @@ button:disabled {
     font-size: 0.85rem;
     transition: border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
 }
-
 .contact-page .field input {
     height: 48px;
 }
-
 .contact-page .field textarea {
     min-height: 115px;
     padding-top: 1.35rem;
     resize: vertical;
 }
-
 .contact-page .field label {
     position: absolute;
     top: 50%;
@@ -848,19 +669,16 @@ button:disabled {
     font-size: 0.82rem;
     transition: top 0.25s ease, color 0.25s ease, font-size 0.25s ease, transform 0.25s ease;
 }
-
 .contact-page .field textarea + label {
     top: 1rem;
     transform: none;
 }
-
 .contact-page .field input:focus,
 .contact-page .field textarea:focus {
     border-color: #52745B;
     color: #52745B;
     box-shadow: 0 0 0 2px rgba(82, 116, 91, 0.15);
 }
-
 .contact-page .field input:focus + label,
 .contact-page .field textarea:focus + label {
     top: 0.38rem;
@@ -869,7 +687,6 @@ button:disabled {
     font-size: 0.64rem;
     font-weight: 700;
 }
-
 .contact-page .field input:not(:placeholder-shown) + label,
 .contact-page .field textarea:not(:placeholder-shown) + label {
     top: 0.38rem;
@@ -877,12 +694,10 @@ button:disabled {
     color: #555D52;
     font-size: 0.64rem;
 }
-
 .contact-page .req {
     color: #A83232;
     font-weight: 700;
 }
-
 .contact-page .btn-send {
     display: block;
     width: 100%;
@@ -897,16 +712,13 @@ button:disabled {
     cursor: pointer;
     transition: background-color 0.25s ease, transform 0.2s ease;
 }
-
 .contact-page .btn-send:hover {
     background-color: #52745B;
 }
-
 .contact-page .btn-send:active {
     background-color: #263323;
     transform: scale(0.98);
 }
-
 .contact-page .form-note {
     margin: 0.85rem 0 0;
     color: #555D52;
@@ -916,20 +728,16 @@ button:disabled {
     line-height: 1.5;
     text-align: center;
 }
-
 .contact-page .form-note a {
     color: #263323;
     text-decoration: underline;
 }
-
 .contact-page .form-note a:hover {
     color: #52745B;
 }
-
 .contact-page .modal-backdrop.show {
     opacity: 0.5;
 }
-
 .contact-page .feedback {
     border: none;
     border-radius: 10px;
@@ -937,18 +745,15 @@ button:disabled {
     color: #263323;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
-
 .contact-page .feedback .modal-body {
     padding: 1.3rem 1.3rem 1rem;
 }
-
 .contact-page .feedback-icon {
     width: 36px;
     height: 36px;
     flex-shrink: 0;
     object-fit: contain;
 }
-
 .contact-page .feedback-title {
     margin-bottom: 0.35rem;
     color: #263323;
@@ -956,14 +761,12 @@ button:disabled {
     font-size: 1.1rem;
     font-weight: 700;
 }
-
 .contact-page .feedback p {
     color: #263323;
     font-family: "DM Sans", sans-serif;
     font-size: 0.8rem;
     line-height: 1.5;
 }
-
 .contact-page .btn-modal-close,
 .contact-page .btn-modal-continue {
     padding: 0.5rem 1.1rem;
@@ -975,37 +778,26 @@ button:disabled {
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
-
 .contact-page .btn-modal-close {
     background-color: #DCE8D0;
     color: #263323;
 }
-
 .contact-page .btn-modal-close:hover {
     background-color: #CEDAC5;
 }
-
 .contact-page .btn-modal-continue {
     background-color: #52745B;
     color: #FFFFFF;
 }
-
 .contact-page .btn-modal-continue:hover {
     background-color: #263323;
 }
-
-
-/* =====================================
-   PRIVACY POLICY PAGE
-===================================== */
-
 .privacy-page .page-bg {
     width: 100%;
     min-height: 70vh;
     padding: 1px 0;
     background-color: #E6F0E9;
 }
-
 .privacy-page .policy-card {
     width: 100%;
     max-width: 1200px;
@@ -1014,7 +806,6 @@ button:disabled {
     border-radius: 5px;
     background-color: #FFFFFF;
 }
-
 .privacy-page .policy-card h1 {
     margin-bottom: 0;
     color: #263323;
@@ -1022,7 +813,6 @@ button:disabled {
     font-size: 1.9rem;
     font-weight: 700;
 }
-
 .privacy-page .policy-date {
     margin-top: 0.2rem;
     margin-bottom: 1.5rem;
@@ -1031,11 +821,9 @@ button:disabled {
     font-size: 0.75rem;
     font-style: italic;
 }
-
 .privacy-page .policy-section {
     margin-bottom: 1.2rem;
 }
-
 .privacy-page .policy-section h2 {
     margin-bottom: 0.4rem;
     color: #263323;
@@ -1043,7 +831,6 @@ button:disabled {
     font-size: 1.05rem;
     font-weight: 700;
 }
-
 .privacy-page .policy-section p,
 .privacy-page .policy-section li {
     color: #263323;
@@ -1051,162 +838,123 @@ button:disabled {
     font-size: 0.82rem;
     line-height: 1.6;
 }
-
 .privacy-page .policy-section p {
     margin-bottom: 0.65rem;
 }
-
 .privacy-page .policy-section ul {
     margin-bottom: 0.8rem;
     padding-left: 1.5rem;
 }
-
 .privacy-page .policy-section li {
     margin-bottom: 0.3rem;
 }
-
 .privacy-page .policy-section a {
     color: #263323;
     text-decoration: underline;
     overflow-wrap: anywhere;
 }
-
 .privacy-page .policy-section a:hover {
     color: #52745B;
 }
-
-
-/* =====================================
-   RESPONSIVE ADJUSTMENTS FOR SHOP,
-   CONTACT, AND PRIVACY
-===================================== */
-
 @media (max-width: 991px) {
     .shop-page .shop-section {
         width: 90%;
     }
-
     .shop-page .product-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 25px;
     }
-
     .contact-page .contact-info {
         padding-right: 0.75rem;
     }
-
     .contact-page .hero-title {
         font-size: 2.3rem;
     }
-
     .contact-page .form-card {
         padding: 1.3rem;
     }
 }
-
 @media (max-width: 767px) {
     .shop-page .navbar {
         height: auto;
     }
-
     .shop-page .shop-section {
         padding-top: 45px;
         padding-bottom: 60px;
     }
-
     .shop-page .shop-title {
         margin-top: 20px;
         margin-bottom: 45px;
         font-size: 32px;
     }
-
     .shop-page .product-info h2,
     .shop-page .price {
         font-size: 24px;
     }
-
     .shop-page .category {
         font-size: 18px;
     }
-
     .privacy-page .policy-card {
         margin: 1.2rem auto;
         padding: 1.5rem;
     }
-
     .privacy-page .policy-card h1 {
         font-size: 1.6rem;
     }
-
     .privacy-page .policy-section h2 {
         font-size: 1rem;
     }
-
     .privacy-page .policy-section p,
     .privacy-page .policy-section li {
         font-size: 0.8rem;
     }
-
     .contact-page .hero-title {
         font-size: 2rem;
     }
-
     .contact-page .lead-text,
     .contact-page .contact-list li {
         font-size: 0.85rem;
     }
 }
-
 @media (max-width: 600px) {
     .shop-page .product-grid {
         grid-template-columns: 1fr;
         gap: 50px;
     }
-
     .shop-page .footer {
         height: auto;
         padding: 25px;
         gap: 20px;
         flex-wrap: wrap;
     }
-
     .contact-page .hero-title {
         font-size: 1.8rem;
     }
-
     .contact-page .form-card {
         padding: 1rem;
     }
-
     .contact-page .field input {
         height: 45px;
     }
-
     .contact-page .field textarea {
         min-height: 105px;
     }
-
     .contact-page .feedback-icon {
         width: 30px;
         height: 30px;
     }
-
     .privacy-page .policy-card {
         padding: 1.2rem 1rem;
     }
-
     .privacy-page .policy-card h1 {
         font-size: 1.4rem;
     }
-
     .privacy-page .policy-date {
         font-size: 0.68rem;
     }
-
     .privacy-page .policy-section h2 {
         font-size: 0.95rem;
     }
-
     .privacy-page .policy-section p,
     .privacy-page .policy-section li {
         font-size: 0.76rem;
