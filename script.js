@@ -6,8 +6,8 @@ const products = {
         color: "White",
         colorHex: "#FFFFFF",
         images: [
-            "../images/product/dont-be-late-front.jpg",
-            "../images/product/dont-be-late-back.jpg"
+            "../images/products/dont-be-late-front.jpg",
+            "../images/products/dont-be-late-back.jpg"
         ],
         imageLabels: ["FRONT", "BACK"]
     },
@@ -18,8 +18,8 @@ const products = {
         color: "Beige",
         colorHex: "#D8C5A3",
         images: [
-            "../images/product/find-your-comfort-front.jpg",
-            "../images/product/find-your-comfort-back.jpg"
+            "../images/products/find-your-comfort-front.jpg",
+            "../images/products/find-your-comfort-back.jpg"
         ],
         imageLabels: ["FRONT", "BACK"]
     },
@@ -30,8 +30,8 @@ const products = {
         color: "Black",
         colorHex: "#222222",
         images: [
-            "../images/product/do-good-work-front.jpg",
-            "../images/product/do-good-work-back.jpg"
+            "../images/producst/do-good-work-front.jpg",
+            "../images/products/do-good-work-back.jpg"
         ],
         imageLabels: ["FRONT", "BACK"]
     }
