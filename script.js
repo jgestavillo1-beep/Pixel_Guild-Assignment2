@@ -30,7 +30,7 @@ const products = {
         color: "Black",
         colorHex: "#222222",
         images: [
-            "../images/producst/do-good-work-front.jpg",
+            "../images/products/do-good-work-front.jpg",
             "../images/products/do-good-work-back.jpg"
         ],
         imageLabels: ["FRONT", "BACK"]
